@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useEffect, useRef, useState } from "react";
+import { sitePath } from "./site-path";
 
 const practices = [
   { number: "01", title: "Family law", text: "Steady counsel for separation, parenting, support, and the agreements that shape what comes next." },
@@ -18,7 +19,7 @@ const testimonials = [
 function Placeholder({ label, ratio = "4 / 5", className = "", src }: { label: string; ratio?: string; className?: string; src?: string }) {
   return (
     <div className={`image-placeholder ${src ? "has-image" : ""} ${className}`} style={{ aspectRatio: ratio }}>
-      {src ? <img src={src} alt={label} /> : <><span>{label}</span><small>IMAGE PLACEHOLDER · {ratio.replace("/", ":")}</small></>}
+      {src ? <img src={sitePath(src)} alt={label} /> : <><span>{label}</span><small>IMAGE PLACEHOLDER · {ratio.replace("/", ":")}</small></>}
     </div>
   );
 }
@@ -239,9 +240,9 @@ export default function Home() {
       <section className="insights section-pad" id="insights">
         <div className="section-heading compact"><p className="eyebrow">From the desk</p><h2>Useful thinking,<br /><em>plainly shared.</em></h2></div>
         <div className="insight-list">
-          <article><span>Family law · 6 min read</span><h3>What to prepare before your first legal consultation</h3><a href="/insights/preparing-for-your-first-consultation">Read the note ↗</a></article>
-          <article><span>Employment · 8 min read</span><h3>When a workplace issue needs legal advice</h3><a href="/insights/when-workplace-issues-need-legal-advice">Read the note ↗</a></article>
-          <article><span>Dispute resolution · 7 min read</span><h3>Mediation or litigation: understanding the difference</h3><a href="/insights/mediation-or-litigation">Read the note ↗</a></article>
+          <article><span>Family law · 6 min read</span><h3>What to prepare before your first legal consultation</h3><a href={sitePath("insights/preparing-for-your-first-consultation")}>Read the note ↗</a></article>
+          <article><span>Employment · 8 min read</span><h3>When a workplace issue needs legal advice</h3><a href={sitePath("insights/when-workplace-issues-need-legal-advice")}>Read the note ↗</a></article>
+          <article><span>Dispute resolution · 7 min read</span><h3>Mediation or litigation: understanding the difference</h3><a href={sitePath("insights/mediation-or-litigation")}>Read the note ↗</a></article>
         </div>
       </section>
 
