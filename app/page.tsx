@@ -124,7 +124,7 @@ export default function Home() {
           <p className="hero-note">Serving individuals and businesses since 2008</p>
         </div>
         <div className="hero-visual reveal-second">
-          <Placeholder label="Meera Raman, principal attorney" src="/images/meera-raman.webp" />
+          <Placeholder label="Meera Raman, principal attorney" src="/images/4.png" />
           <div className="portrait-caption"><span>Meera Raman</span><small>Founder &amp; Principal Counsel</small></div>
         </div>
       </section>
@@ -188,7 +188,7 @@ export default function Home() {
       </section>
 
       <section className="approach" id="approach">
-        <div className="approach-visual"><Placeholder label="Attorney speaking with a client during a consultation" ratio="3 / 4" src="/images/consultation.webp" /></div>
+        <div className="approach-visual"><Placeholder label="Attorney speaking with a client during a consultation" ratio="3 / 4" src="/images/2.png" /></div>
         <div className="approach-copy">
           <p className="eyebrow light">Our point of view</p>
           <h2>Before there is a legal problem, there is a <em>human one.</em></h2>
@@ -220,9 +220,9 @@ export default function Home() {
       <section className="people section-pad" id="people">
         <div className="section-heading"><p className="eyebrow">Our people</p><h2>Serious about the law.<br /><em>Human about everything else.</em></h2></div>
         <div className="people-grid">
-          <article className="person featured"><Placeholder label="Meera Raman, founder and principal counsel" ratio="4 / 5" src="/images/meera-raman.webp" /><div><span>Founder &amp; Principal Counsel</span><h3>Meera Raman</h3><p>Family law · Employment law · Mediation</p><a href="#contact">View profile ↗</a></div></article>
-          <article className="person"><Placeholder label="Arjun Dev, counsel" ratio="4 / 5" src="/images/arjun-dev.webp" /><div><span>Counsel</span><h3>Arjun Dev</h3><p>Civil litigation · Estate disputes</p><a href="#contact">View profile ↗</a></div></article>
-          <article className="person"><Placeholder label="Nila Krishnan, associate" ratio="4 / 5" src="/images/nila-krishnan-new.webp" /><div><span>Associate</span><h3>Nila Krishnan</h3><p>Family law · Workplace matters</p><a href="#contact">View profile ↗</a></div></article>
+          <article className="person featured"><Placeholder label="Meera Raman, founder and principal counsel" ratio="4 / 5" src="/images/4.png" /><div><span>Founder &amp; Principal Counsel</span><h3>Meera Raman</h3><p>Family law · Employment law · Mediation</p><a href="#contact">View profile ↗</a></div></article>
+          <article className="person"><Placeholder label="Arjun Dev, counsel" ratio="4 / 5" src="/images/3.png" /><div><span>Counsel</span><h3>Arjun Dev</h3><p>Civil litigation · Estate disputes</p><a href="#contact">View profile ↗</a></div></article>
+          <article className="person"><Placeholder label="Nila Krishnan, associate" ratio="4 / 5" src="/images/1.png" /><div><span>Associate</span><h3>Nila Krishnan</h3><p>Family law · Workplace matters</p><a href="#contact">View profile ↗</a></div></article>
         </div>
       </section>
 
